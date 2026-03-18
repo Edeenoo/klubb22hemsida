@@ -1,56 +1,68 @@
 @media screen and (min-width: 1201px) {
 body {
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #topbar {
+    z-index: -1;
     position: fixed;
     width: 100%;
     font-size: 20px;
     background-color: rgb(114, 0, 0);
     border-bottom: 1px solid rgb(62, 0, 0);
     margin: -25px -8px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 4px 4px black;
+    font-size: 24px;
 }
 
 #topbarin {
     display: grid;
-    grid-template-columns: 1fr 1fr 1f;
-    padding: 0 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
 }
 
-#topbarleft {
+/*#topbarleft {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    
 }
  #topbarright {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
- }
+    grid-template-columns: 1fr 0.8fr 0.6fr;
+    
+ }*/
 .flikar {
     color: aliceblue;
     margin: auto;
+    
 }
 
 #klubb22logotyp {
+    z-index: 2;
     position: static;
     width: 85px;
     display: block;
     margin: auto;
-    padding-top: 9px;
+    padding-top: 0px;
     padding-bottom: 6px;
 }
 
 #socialamedierhead {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 145px;
+    margin-right: 105px;
     
 }
 
 .socialamedier {
     width: 50px;
-    padding-top: -10px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    
     padding-right: 10px;
     
 }
