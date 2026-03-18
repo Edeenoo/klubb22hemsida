@@ -5,7 +5,7 @@ body {
 }
 
 #topbar {
-    z-index: -1;
+    z-index: 1;
     position: fixed;
     width: 100%;
     font-size: 20px;
@@ -16,14 +16,19 @@ body {
     font-style: italic;
     text-shadow: 4px 4px black;
     font-size: 24px;
+    
 }
 
 #topbarin {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 10px 5px;
+}
+
+.flikar {
+    z-index: 3;
 }
 
 /*#topbarleft {
@@ -42,29 +47,55 @@ body {
     
 }
 
-#klubb22logotyp {
+#klubb22logotypdiv { 
     z-index: 2;
-    position: static;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -90px;
+    
+    
+}
+
+.klubb22logotyp {
+    display: flex;
     width: 85px;
-    display: block;
-    margin: auto;
-    padding-top: 0px;
+
+    
+/*  padding-top: 0px;
     padding-bottom: 6px;
+*/
 }
 
 #socialamedierhead {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 105px;
-    
+    padding-left: 38px;
+    z-index: 3;
 }
 
 .socialamedier {
     width: 50px;
-    padding-top: 0px;
+    margin-top: -25px;
+    margin-right: 20px;
     
-    padding-right: 10px;
-    
+}
+
+.socialamedierhref {
+    height: 25px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#topbartext {
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: -57px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+
 }
 
 /*#topbarbottom {
