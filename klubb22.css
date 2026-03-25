@@ -21,9 +21,9 @@ body {
 
 #topbarin {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.9fr 0.6fr 0.6fr 0.5fr 1.2fr 1fr 0.7fr 0.25fr;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 51px;
     padding: 10px 5px;
 }
 
@@ -44,7 +44,7 @@ body {
 .flikar {
     color: aliceblue;
     margin: auto;
-    
+    margin-top: -5px;
 }
 
 #klubb22logotypdiv { 
@@ -53,9 +53,16 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -90px;
+    margin-top: -89px;
     
-    
+}
+
+#klubb22logotypdiv:hover {
+    animation: logospin 2s infinite linear;
+}
+
+@keyframes logospin {
+    to {transform: rotate(360deg);}
 }
 
 .klubb22logotyp {
@@ -71,7 +78,7 @@ body {
 #socialamedierhead {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 105px;
+    margin-right: 75px;
     padding-left: 38px;
     z-index: 3;
 }
@@ -92,9 +99,10 @@ body {
 #topbartext {
     color: aliceblue;
     font-size: 17px;
-    margin-top: -57px;
+    margin-top: -56px;
     margin-bottom: 7px;
     margin-left: 10px;
+    z-index: 4;
 
 }
 
