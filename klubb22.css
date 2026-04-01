@@ -2,6 +2,134 @@
 body {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+}
+
+/* -- toppbar -- */
+#topbar {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(114, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: -25px -8px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 4px 4px black;
+    font-size: 24px;
+    
+}
+
+#topbarin {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 0.6fr 0.6fr 0.5fr 1.2fr 1fr 0.7fr 0.25fr;
+    margin-top: 43px;
+    margin-bottom: 51px;
+    padding: 10px 5px;
+}
+
+.flikar {
+    z-index: 3;
+}
+
+.flikar {
+    color: aliceblue;
+    margin: auto;
+    margin-top: -5px;
+}
+
+#klubb22logotypdiv { 
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -89px;
+    
+}
+
+.klubb22logotyp:hover {
+    animation: logospin 3s infinite linear;
+}
+
+@keyframes logospin {
+    to {transform: rotate(360deg);}
+}
+
+.klubb22logotyp {
+    display: flex;
+    width: 85px;
+}
+
+#socialamedierhead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 75px;
+    padding-left: 38px;
+    z-index: 3;
+}
+
+.socialamedier {
+    width: 50px;
+    margin-top: -25px;
+    margin-right: 20px;
+    
+}
+
+.socialamedierhref {
+    height: 25px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#topbartext {
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: -56px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    z-index: 4;
+
+}
+
+/* -- Main -- */
+
+#main {
+    
+padding-top: 100px;
+margin-left: -8px;
+}
+
+#klubb22fulllogotypdiv {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#klubb22fulllogotyp {
+    width: 450px;
+    margin: auto;
+}
+
+#maintext {
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border-radius: 10px;
+    
+}
+
+/* -- Mobil vesion -- */
+}
+@media screen and (max-width: 800px) {
+    body {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #topbar {
@@ -58,7 +186,7 @@ body {
 }
 
 .klubb22logotyp:hover {
-    animation: logospin 3.2s infinite linear;
+    animation: logospin 3s infinite linear;
 }
 
 @keyframes logospin {
@@ -121,4 +249,3 @@ body {
     border-bottom: 1px solid rgb(93, 4, 4);
 }*/
 }
-@media screen and (max-width: 800px) {}
