@@ -12,13 +12,58 @@ body {
     width: 100%;
     font-size: 20px;
     background-color: rgb(114, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(167, 48, 48);
     margin: -25px -8px;
     font-weight: bold;
     font-style: italic;
     text-shadow: 4px 4px black;
     font-size: 24px;
+    top: 7px;
     
+}
+
+#topbarcosmetic {
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+}
+
+#circle {
+    z-index: 1;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: #2a0707;
+    border-radius: 50%;
+    top: 5px;
+    margin: auto;
+    border: 2px solid rgb(167, 48, 48);
+
+}
+
+#rectangle {
+    z-index: inherit;
+    position: relative;
+    height: 40px;
+    width: 95%;
+    background-color: #2a0707;
+    top: -70px;
+    margin: auto;
+    border: 2px solid rgb(167, 48, 48);
+    border-radius: 50px;
+}
+
+#rectangle2 {
+    z-index: 2;
+    position: relative;
+    height: 40px;
+    width: 95%;
+    background-color: #2a0707;
+    top: -112px;
+    margin: auto;
+    
+    border-radius: 50px;
 }
 
 #topbarin {
@@ -36,7 +81,8 @@ body {
 .flikar {
     color: aliceblue;
     margin: auto;
-    margin-top: -5px;
+    margin-top: 5px;
+    margin-bottom: -5px
 }
 
 #klubb22logotypdiv { 
@@ -45,7 +91,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -89px;
+    /*margin-top: -79px;*/
+    top: 15px;
     
 }
 
