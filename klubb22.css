@@ -3,7 +3,48 @@ body {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+   
 }
+
+/*@keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}*/
 
 /* -- toppbar -- */
 #topbar {
@@ -34,7 +75,7 @@ body {
     position: relative;
     height: 100px;
     width: 100px;
-    background-color: #2a0707;
+    background-color: #480505;
     border-radius: 50%;
     top: 5px;
     margin: auto;
@@ -46,8 +87,9 @@ body {
     z-index: inherit;
     position: relative;
     height: 40px;
-    width: 95%;
-    background-color: #2a0707;
+    left: 7.2%;
+    width: 80%;
+    background-color: #480505;
     top: -70px;
     margin: auto;
     border: 2px solid rgb(167, 48, 48);
@@ -58,9 +100,10 @@ body {
     z-index: 2;
     position: relative;
     height: 40px;
-    width: 95%;
-    background-color: #2a0707;
-    top: -112px;
+    left: 7.2%;
+    width: 80%;
+    background-color: #480505;
+    top: -111px;
     margin: auto;
     
     border-radius: 50px;
@@ -119,9 +162,11 @@ body {
 
 .socialamedier {
     width: 50px;
-    margin-top: -25px;
+    margin-top: -28px;
     margin-right: 20px;
-    
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(14, 1, 1);
 }
 
 .socialamedierhref {
@@ -133,11 +178,14 @@ body {
 #topbartext {
     color: aliceblue;
     font-size: 17px;
-    margin-top: -56px;
-    margin-bottom: 7px;
-    margin-left: 10px;
+    margin-top: -60px;
+    margin-bottom: 6px;
+    margin-left: 20px;
     z-index: 4;
-
+    
+    margin-right: 85%;
+    
+    padding-left: 12px;
 }
 
 /* -- Main -- */
@@ -296,3 +344,5 @@ margin-left: -8px;
     border-bottom: 1px solid rgb(93, 4, 4);
 }*/
 }
+
+
